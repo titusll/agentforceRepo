@@ -1,0 +1,8 @@
+<template>
+    <lightning-input type="number" label="Enter a number" onblur={higherOrLower}></lightning-input>
+    <lightning-card title="Header">
+    <p if:true={lower}>Answer is lower</p>
+    <p if:true={higher}>Answer is higher</p>
+    <p if:true={correct}>Answer is correct: {numRandom}</p>
+    </lightning-card>
+</template>
