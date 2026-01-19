@@ -1,0 +1,14 @@
+<template>
+    <div class={containerClasses}>
+        <lightning-icon 
+            icon-name={icon} 
+            size="small" 
+            class={iconStyle}
+            variant={iconVariant}>
+        </lightning-icon>
+        <div class="slds2-alertContent">
+            <h2 if:true={alertTitle} class="slds2-alertHeading">{alertTitle}</h2>
+            <p if:true={alertMessage} class="slds2-alertBody">{alertMessage}</p>
+        </div>
+    </div>
+</template>

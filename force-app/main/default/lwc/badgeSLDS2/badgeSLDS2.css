@@ -1,0 +1,57 @@
+.slds2-notificationAlert {
+  width: 100%;
+  border-radius: var(--slds-g-radius-border-4);
+  padding-top: var(--slds-g-spacing-4);
+  padding-bottom: var(--slds-g-spacing-4);
+  padding-right: var(--slds-g-spacing-4);
+  padding-left: var(--slds-g-spacing-3);  
+  gap: var(--slds-g-spacing-2);
+  display:flex;
+  align-items: wrap;
+
+}
+
+.slds2-alertContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.slds2-alertHeading {
+    font-size: var(--slds-g-font-scale-2);
+    font-weight: var(--slds-g-font-weight-6);
+}
+
+.slds2-alertBody {
+    font-size: var(--slds-g-font-scale-base);
+    font-weight: var(--slds-g-font-weight-4);
+}
+
+.slds2-iconStyling {
+    padding-top: var(--slds-g-spacing-4);
+    padding-left: var(--slds-g-spacing-1);
+}
+
+.slds2-info {
+    background-color: var(--slds-g-color-info-container-1);
+    color: var(--slds-g-color-on-info-1);
+}
+
+.slds2-quotation {
+    background-color: var(--slds-g-color-surface-container-1);
+    color: var(--slds-g-color-on-surface-2);
+}
+
+.slds2-success {
+    background-color: var(--slds-g-color-success-container-1);
+    color: var(--slds-g-color-on-success-1);
+}
+
+.slds2-warning {
+    background-color: var(--slds-g-color-warning-container-1);
+    color: var(--slds-g-color-on-warning-1);
+}
+
+.slds2-error {
+    background-color: var(--slds-g-color-error-container-1);
+    color: var(--slds-g-color-on-error-1);
+}
